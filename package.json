@@ -1,0 +1,27 @@
+{
+  "name": "users-graphql-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hassanaref/users-graphQL-API.git"
+  },
+  "author": "",
+  "license": "ISC", 
+  "bugs": {
+    "url": "https://github.com/hassanaref/users-graphQL-API/issues"
+  },
+  "homepage": "https://github.com/hassanaref/users-graphQL-API#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
